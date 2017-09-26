@@ -50,7 +50,7 @@ At this point, all packages needed for the examples should be installed in the e
 
 ## Running the Examples
 
-Enter the ```code/<some-example>``` directory, then consult README for the eaxmple.
+Enter the ```code/<some-example>``` directory, then consult README for the example.
 
 ```bash
 cd code/<some-example>```
