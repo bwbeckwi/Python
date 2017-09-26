@@ -1,3 +1,5 @@
+Python Resources
+
 A collection of code examples and presentations on Python.
 
 ## Installation
@@ -15,6 +17,10 @@ git clone git@github.intel.com:tmsquill/python-resources.git
 cd <some-directory>
 curl -OL https://github.intel.com/tmsquill/python-resources/archive/master.zip && unzip master.zip && rm master.zip
 ```
+
+#### Installing Conda
+
+You need to have ```conda``` installed to run the examples. The installer can be found [here](https://conda.io/miniconda.html).
 
 ## Creating an Environment
 
