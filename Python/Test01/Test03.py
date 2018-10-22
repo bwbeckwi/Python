@@ -19,7 +19,7 @@ def open_myfile(file_path):
             for item in item_list:
                 # print(type(item)) # Example of type
                 # print(dir(item))  # Example of parameters and functions
-                #print("\r\n")
+                # print("\r\n")
                 # item = item.replace('\x0c', '')
                 item = item.replace('\00', '')
                 item = item.replace('\x0a-\x0c', '')
