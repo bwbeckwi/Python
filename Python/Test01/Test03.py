@@ -1,13 +1,32 @@
-import string
+# import only system from os
+from os import system, name
+# import sleep to show output for some time period
+from time import sleep
 
 
-# Currently not used...
-'''
-friends = ["Derek", "Chris", "Joe", "Carlos"]
+def main():
+    clear()
+    # sleep(1)
+    open_myfile("C:/tmp/ServerList.txt")
+    # print(raise_to_power(3,4))
 
-for index in range(5):
-    print(index)
 
+def open_myfile(file_path):
+    if file_path:
+        with open(file_path, "r", newline="") as f:
+            items = f.read()
+            item_list = items.split("\r\n")
+            for item in item_list:
+                # print(type(item)) # Example of type
+                # print(dir(item))  # Example of parameters and functions
+                #print("\r\n")
+                # item = item.replace('\x0c', '')
+                item = item.replace('\00', '')
+                item = item.replace('\x0a-\x0c', '')
+                item = item.replace('\x5e', '')
+                print(item.upper())
+    else:
+        print("File not found! ")
 
 def raise_to_power(base_num, pow_num):
     result = 1
@@ -15,52 +34,18 @@ def raise_to_power(base_num, pow_num):
         result = result * base_num
     return '\r\n' + str(result)
 
-'''
 
-# print(raise_to_power(3,4))
-'''
-try:
-    # value = 10 / 0
-    number = int(input("Enter a Number: "))
-    print(number)
-except ZeroDivisionError as err:
-    print(err)
-except ValueError:
-    print("Invalid input")
-'''
+# define our clear function
+def clear():
+    # for windows
+    if name == 'nt':
+        _ = system('cls')
 
-
-# Read file
-# servers = open("C:/temp/servers.txt", "r")
-
-
-# for server in servers.readlines():
-    # server = server.rstrip("\n").upper()
-    # print(server, end="\n")
-
-# servers.close()
-
-"""
-wrong
-try:
-    open(filename, "r")
-except FileExistsError as e:
-    print(e)
-finally:
-    f.close
-"""
-
-def main():
-    file_path = "C:/temp/servers.txt"
-
-    with open(file_path, "r", newline="") as f:
-        items = f.read()
-        item_list = items.split("\r\n")
-        for item in item_list:
-            print(type(item))
-            print(dir(item))
-            print(item)
+        # for mac and linux(here, os.name is 'posix')
+    else:
+        _ = system('clear')
 
 
 if __name__ == "__main__":
     main()
+
