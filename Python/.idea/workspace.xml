@@ -4,7 +4,17 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046f664b-028e-4af9-8af9-4ac95394b211" name="Default Changelist" comment="" />
+    <list default="true" id="046f664b-028e-4af9-8af9-4ac95394b211" name="Default Changelist" comment="Initial load of DomainSlice Python script. This script returns the persons name and E-mail domain.">
+      <change afterPath="$PROJECT_DIR$/Brad_Backup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_data.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DownLoadedBackupScriptPython_v2.7.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,74 +25,56 @@
     <session id="-1537839544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="20" />
           <entry key="dummy" value="4" />
-          <entry key="py" value="642" />
+          <entry key="py" value="2943" />
+          <entry key="txt" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="662" />
+          <entry key="PLAIN_TEXT" value="146" />
+          <entry key="Python" value="2963" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test01/Test03.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Brad_Backup.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="782">
-                <caret line="48" selection-start-line="48" selection-end-line="49" selection-end-column="10" />
+              <first_editor relative-caret-position="-137">
+                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 <folding>
-                  <element signature="e#29#56#0" expanded="true" />
+                  <element signature="e#264#273#0" expanded="true" />
+                  <marker date="1540575132939" expanded="true" signature="1004:1005" ph="..." />
                 </folding>
               </first_editor>
-              <second_editor relative-caret-position="-34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test1/main.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="782">
-                <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
-              </first_editor>
               <second_editor relative-caret-position="-119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DomainSlice.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor />
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -98,14 +90,15 @@
         <option value="$PROJECT_DIR$/Test01/Test01.py" />
         <option value="$PROJECT_DIR$/Test01/Test03.py" />
         <option value="$PROJECT_DIR$/Test1/main.py" />
+        <option value="$PROJECT_DIR$/Brad_Backup.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="629" />
-    <option name="y" value="97" />
-    <option name="width" value="1086" />
-    <option name="height" value="1021" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="453" />
+    <option name="y" value="29" />
+    <option name="width" value="1303" />
+    <option name="height" value="1102" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -119,11 +112,6 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Test1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +152,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.Brad_Backup">
+    <configuration name="Brad_Backup" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Brad_Backup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test01" type="PythonConfigurationType" factoryName="Python">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,6 +281,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.Test01" />
+      <item itemvalue="Python.Brad_Backup" />
       <item itemvalue="Python.Test03" />
       <item itemvalue="Python.testEnviron" />
       <item itemvalue="Python.test02" />
@@ -297,6 +307,21 @@
       <option name="presentableId" value="Default" />
       <updated>1540217842699</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial load of backupscript written in Python v2.7">
+      <created>1540494991328</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540494991328</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial load of DomainSlice Python script. This script returns the persons name and E-mail domain.">
+      <created>1540495047810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540495047810</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -309,9 +334,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="97" width="1086" height="1021" extended-state="0" />
+    <frame x="453" y="29" width="1303" height="1102" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29463413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3015873" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298611" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3298611" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JSON Utils" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2915506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,20 +376,18 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JSON Utils" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial load of backupscript written in Python v2.7" />
+    <MESSAGE value="Initial load of DomainSlice Python script. This script returns the persons name and E-mail domain." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial load of DomainSlice Python script. This script returns the persons name and E-mail domain." />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test01/BackupScript.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="-722" />
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test01/BackupScript.py" />
     <entry file="file://$PROJECT_DIR$/Test01/testEnviron.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -395,11 +439,16 @@
         <state>
           <first_editor relative-caret-position="782">
             <caret line="48" selection-start-line="48" selection-end-line="49" selection-end-column="10" />
-            <folding>
-              <element signature="e#29#56#0" expanded="true" />
-            </folding>
           </first_editor>
           <second_editor relative-caret-position="-34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainSlice.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -413,11 +462,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DomainSlice.py">
+    <entry file="file://$PROJECT_DIR$/DownLoadedBackupScriptPython_v2.7.py" />
+    <entry file="file://$PROJECT_DIR$/csv_data.2.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor />
-          <second_editor />
+          <first_editor relative-caret-position="476">
+            <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brad_Backup.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="-137">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <folding>
+              <element signature="e#264#273#0" expanded="true" />
+              <marker date="1540575132939" expanded="true" signature="1004:1005" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
