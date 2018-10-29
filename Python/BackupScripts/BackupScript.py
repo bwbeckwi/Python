@@ -1,6 +1,8 @@
 """ Simple backup script which just creates the root structure in an other
 folder and syncs everything which recursively lies within one of the source
 folders. For files bigger than a threshold they are first gziped."""
+# This script was downloaded from the WEB. I did not create this script
+
 
 import argparse
 import gzip
