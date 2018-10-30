@@ -4,10 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046f664b-028e-4af9-8af9-4ac95394b211" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test01/is_Server_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test01/is_Server_up.py" afterDir="false" />
-    </list>
+    <list default="true" id="046f664b-028e-4af9-8af9-4ac95394b211" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +15,7 @@
     <session id="-1537839544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -57,23 +54,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test01/is_Server_up.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="357">
-                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-                <folding>
-                  <marker date="1540912430295" expanded="true" signature="327:332" ph="..." />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -90,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="331" />
     <option name="y" value="29" />
     <option name="width" value="1303" />
@@ -362,12 +343,12 @@
   <component name="ToolWindowManager">
     <frame x="331" y="29" width="1303" height="1102" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2753623" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2753623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3015873" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3015873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
