@@ -41,12 +41,6 @@ if __name__ == '__main__':
     print('Starting execution...')
 
     # compress to zip
-    '''
-    source_folder = 'c:\\temp\\amt'
-    target_zip = ('c:\\tmp\\amt\\amt_zipfile.zip').title()
-    target_folder = (os.path.dirname(target_zip)).title()
-    '''
-
     source_folder = input("Enter source folder to copy from: ")
     target_zip = input("Enter target zip name: ").title()
     target_folder = (os.path.dirname(target_zip)).title()
@@ -55,9 +49,11 @@ if __name__ == '__main__':
 
     if "\\\\" not in source_folder:
         source_folder = replace_single_slash(source_folder)
+        print("Source folder: " + source_folder)
 
     if "\\\\" not in target_folder:
         target_folder = replace_single_slash(target_folder)
+        print("Target folder: " + target_folder)
 
     if (os.path.exists(source_folder)) and (os.path.exists(target_folder)):
         if not os.path.exists(target_zip):
@@ -65,7 +61,7 @@ if __name__ == '__main__':
         else:
             print("Target zip file: " + target_zip + " exists...")
     else:
-        print("Source folder " + source_folder + " does not exist...")
+        print("Target folder " + target_folder + " does not exist...")
         os.mkdir(target_folder)
         if not os.path.exists(target_zip):
             doprocess(source_folder, target_zip)
