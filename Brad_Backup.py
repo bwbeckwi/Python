@@ -1,4 +1,4 @@
-##
+###
 # Script to copy files and compress them and put them in a separate location
 #
 # Created for Python 3.
@@ -21,7 +21,7 @@ def doprocess(source_folder, target_zip):
         for file in files:
             print(os.path.join(subdir, file))
             zipf.write(os.path.join(subdir, file))
-    print("Created ", target_zip)
+    print("Created: ", target_zip)
 
 
 # copy files to a target folder
@@ -30,15 +30,34 @@ def docopy(source_folder, target_folder):
         for file in files:
             print(os.path.join(subdir, file))
             shutil.copy2(os.path.join(subdir, file), target_folder)
+    print("Copied files to target directory: " + '"' + target_folder + '"')
+
+
+def replace_single_slash(slash):
+    return slash.replace("\\","\\\\")
 
 
 if __name__ == '__main__':
     print('Starting execution...')
 
     # compress to zip
+    '''
     source_folder = 'c:\\temp\\amt'
-    target_zip = 'c:\\tmp\\amt\\amt_zipfile.zip'
-    target_folder = os.path.dirname(target_zip)
+    target_zip = ('c:\\tmp\\amt\\amt_zipfile.zip').title()
+    target_folder = (os.path.dirname(target_zip)).title()
+    '''
+
+    source_folder = input("Enter source folder to copy from: ")
+    target_zip = input("Enter target zip name: ").title()
+    target_folder = (os.path.dirname(target_zip)).title()
+    
+    #target_folder = input("Enter target folder to copy to: ")
+
+    if "\\\\" not in source_folder:
+        source_folder = replace_single_slash(source_folder)
+
+    if "\\\\" not in target_folder:
+        target_folder = replace_single_slash(target_folder)
 
     if (os.path.exists(source_folder)) and (os.path.exists(target_folder)):
         if not os.path.exists(target_zip):
