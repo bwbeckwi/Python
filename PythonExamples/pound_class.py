@@ -9,7 +9,7 @@ class Pound:
         else:
             self.rare = 1.00
 
-        self.colour = "gold"
+        self.color = "gold"
         self.num_edges = 1
         self.diameter = 22.5  # mm
         self.thickness = 3.15  # mm
@@ -19,10 +19,10 @@ class Pound:
         print("Coin Spent!")
 
     def rust(self):
-        self.colour = "greenish"
+        self.color = "greenish"
 
     def clean(self):
-        self.colour = "gold"
+        self.color = "gold"
 
     def flip(self):
         heads_options = [True, False]
