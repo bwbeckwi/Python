@@ -73,10 +73,16 @@ if __name__ == '__main__':
         else:
             print("Target zip file: " + target_zip + " exists...")
     else:
-        print("Target folder " + target_folder + " does not exist...")
-        os.mkdir(target_folder)
-        if not os.path.exists(target_zip):
-            doprocess(source_folder, target_zip)
+        if not os.path.exists(source_folder):
+            print("Source folder " + source_folder + " does not exist; exiting...")
+            exit()
+
+        if not os.path.exists(target_folder):
+            print("Target folder " + target_folder + " does not exist...")
+            print("Creating target folder: " + target_folder)
+            os.mkdir(target_folder)
+            if not os.path.exists(target_zip):
+                doprocess(source_folder, target_zip)
 
     # copy to backup folder
     # Assumptions: Source and Target folders are the same as above.
@@ -84,10 +90,11 @@ if __name__ == '__main__':
     if os.path.exists(source_folder):
         if os.path.exists(target_zip):
             if os.path.exists(target_folder):
+                print("Copying files to target folder: " + target_folder)
                 docopy(source_folder, target_folder)
             else:
                 print("Target folder " + target_folder + " does not exist...")
-                # Create target_folder
+                os.mkdir(target_folder)
         else:
             print("Zip file does not exist...")
     else:
