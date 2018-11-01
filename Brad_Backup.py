@@ -2,6 +2,14 @@
 # Script to copy files and compress them and put them in a separate location
 #
 # Created for Python 3.
+# Updated: November 2, 2018
+# By:   Brad Beckwith
+# Change(s): Added the ability to replace single slash with double slashes via a function. Also
+#           added the ability to create the target directory if it doesn't exist.
+#
+#
+# Version 1.1.0
+#
 # By:   Brad Beckwith
 #       October 25, 2018
 #       Verify the Zip folder is not the same as the source folder or the Zip file will
@@ -50,6 +58,10 @@ if __name__ == '__main__':
     if "\\\\" not in source_folder:
         source_folder = replace_single_slash(source_folder)
         print("Source folder: " + source_folder)
+
+    if "\\\\" not in target_zip:
+        target_zip = replace_single_slash(target_zip)
+        print("Target Zip: " + target_zip)        
 
     if "\\\\" not in target_folder:
         target_folder = replace_single_slash(target_folder)
